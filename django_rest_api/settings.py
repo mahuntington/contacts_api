@@ -27,7 +27,7 @@ SECRET_KEY = '6d*ktt0=6-!)i1bdxk4(^)*ls-eseg(k12m2vefor1-g@vc5kn'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', 'desolate-thicket-29906.herokuapp.com']
+ALLOWED_HOSTS = ['localhost', 'blooming-fjord-06511.herokuapp.com']
 
 
 # Application definition
