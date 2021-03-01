@@ -28,3 +28,4 @@
 	e.g. `ALLOWED_HOSTS = ['localhost', 'desolate-thicket-29906.herokuapp.com']`
 - add/commit to git.  Then run `git push heroku master` 
 - run `heroku run bash` to enter bash and then run `python manage.py migrate` and `python manage.py createsuperuser` (follow prompts) and then `exit` 
+- run `heroku open` to open remote app
