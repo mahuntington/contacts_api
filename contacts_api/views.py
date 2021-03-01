@@ -3,10 +3,10 @@ from .serializers import ContactSerializer
 from .models import Contact
 
 class ContactList(generics.ListCreateAPIView):
-    queryset = Contact.objects.all() # tell django how to retrieve all objects from the DB
+    queryset = Contact.objects.all().order_by('id') # tell django how to retrieve all objects from the DB
     serializer_class = ContactSerializer # tell django what serializer to use
 
 class ContactDetail(generics.RetrieveUpdateDestroyAPIView):
-    queryset = Contact.objects.all()
+    queryset = Contact.objects.all().order_by('id')
     serializer_class = ContactSerializer
 
