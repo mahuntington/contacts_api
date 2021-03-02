@@ -6,7 +6,7 @@
 
 - Fork this repo and then clone the fork to your local computer
 - Make sure you are using a `venv` python environment
-	- e.g. `source ~/ga-env/bin/active`
+	- e.g. `source ~/ga-env/bin/activate`
 	- create a new environment and use that
 - Install dependencies with `python -m pip install -r requirements.txt`
 
